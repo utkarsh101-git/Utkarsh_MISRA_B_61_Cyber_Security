@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cyber Assignment - Swap Paragraph</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function swapParagraphs(value) {
+            document.getElementById('paragraph').innerHTML = "You commanded for " + value;
+        }
+    </script>
+    <input type="button" value="Button 1 to swap" id="button1" onclick="swapParagraphs(this.value);" />
+    <input type="button" value="Button 2 to swap" id="button2" onclick="swapParagraphs(this.value);" />
+    <p id="paragraph">Please Click on a Button</p>
+</body>
+
+</html>
